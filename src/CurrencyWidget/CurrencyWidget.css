@@ -1,0 +1,27 @@
+.CurrencyWidget {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  margin: 0 auto;
+  width: 500px;
+}
+
+.CurrencyWidget-header {
+  background-color: #222222;
+  height: 50px;
+  padding: 20px;
+  color: white;
+}
+
+.CurrencyWidget-title {
+  font-size: 1.5em;
+}
+
+.CurrencyWidget-content {
+  font-size: large;
+  border: 1px solid #222222;
+  min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
